@@ -12,6 +12,10 @@
 - 完善剩余UI及网络基础搭建
 - 完善`model`、`viewModel`与网络层设计及`viewModel`与`view`之间的通信
 
+使用：(如果未安装pod: http://code4app.com/article/cocoapods-install-usage)
+- `pod install`  
+- 打开`Liwushuo.xcworkspace` 
+
 
 ![礼物说1.gif](http://upload-images.jianshu.io/upload_images/295346-d678e46307596ba5.gif?imageMogr2/auto-orient/strip)
 
