@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StrategySectionView" id="jSk-a3-yGO" customClass="StrategySectionView" customModule="Liwushuo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpl-nw-fSN" userLabel="marginTopView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="12"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="9hu-fs-tKh"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分类" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e15-gv-x93">
+                    <rect key="frame" x="15" y="22" width="30" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.81568627449999997" green="0.81568627449999997" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHc-1c-Hiz">
+                    <rect key="frame" x="210" y="23" width="100" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="pyV-Xn-NIZ"/>
+                        <constraint firstAttribute="width" constant="100" id="yVG-BE-gRo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-141" maxY="0.0"/>
+                    <state key="normal" title="查看全部" image="celldisclosureindicator_nightmode">
+                        <color key="titleColor" red="0.5" green="0.4851922286" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="pyV-Xn-NIZ"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="viewAllBtnAction:" destination="jSk-a3-yGO" eventType="touchUpInside" id="hoI-IC-anY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dpl-nw-fSN" firstAttribute="top" secondItem="jSk-a3-yGO" secondAttribute="top" id="2uh-9X-UoW"/>
+                <constraint firstItem="lHc-1c-Hiz" firstAttribute="top" secondItem="jSk-a3-yGO" secondAttribute="top" id="7CE-TP-Pic"/>
+                <constraint firstItem="e15-gv-x93" firstAttribute="leading" secondItem="jSk-a3-yGO" secondAttribute="leading" constant="15" id="BAx-Z2-Ck9"/>
+                <constraint firstAttribute="trailing" secondItem="lHc-1c-Hiz" secondAttribute="trailing" constant="10" id="Cj2-jE-9EC"/>
+                <constraint firstItem="e15-gv-x93" firstAttribute="top" secondItem="jSk-a3-yGO" secondAttribute="top" id="IZp-4Z-V80"/>
+                <constraint firstAttribute="bottom" secondItem="lHc-1c-Hiz" secondAttribute="bottom" id="LMA-sC-fw7"/>
+                <constraint firstAttribute="bottom" secondItem="e15-gv-x93" secondAttribute="bottom" id="Lkd-9H-PIj"/>
+                <constraint firstItem="lHc-1c-Hiz" firstAttribute="centerY" secondItem="jSk-a3-yGO" secondAttribute="centerY" id="N5U-DY-ONT"/>
+                <constraint firstItem="lHc-1c-Hiz" firstAttribute="leading" secondItem="jSk-a3-yGO" secondAttribute="leading" id="Qwb-rh-2rL"/>
+                <constraint firstAttribute="trailing" secondItem="dpl-nw-fSN" secondAttribute="trailing" id="abn-JM-2Oh"/>
+                <constraint firstAttribute="trailing" secondItem="e15-gv-x93" secondAttribute="trailing" id="e2b-qm-wWF"/>
+                <constraint firstAttribute="bottom" secondItem="e15-gv-x93" secondAttribute="bottom" id="fej-U3-AXm"/>
+                <constraint firstAttribute="bottom" secondItem="lHc-1c-Hiz" secondAttribute="bottom" id="iBY-Rh-Wfo"/>
+                <constraint firstItem="e15-gv-x93" firstAttribute="centerY" secondItem="jSk-a3-yGO" secondAttribute="centerY" id="nJW-KA-2jM"/>
+                <constraint firstItem="dpl-nw-fSN" firstAttribute="leading" secondItem="jSk-a3-yGO" secondAttribute="leading" id="tC3-Vt-UKa"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IZp-4Z-V80"/>
+                    <exclude reference="Lkd-9H-PIj"/>
+                    <exclude reference="e2b-qm-wWF"/>
+                    <exclude reference="nJW-KA-2jM"/>
+                    <exclude reference="7CE-TP-Pic"/>
+                    <exclude reference="LMA-sC-fw7"/>
+                    <exclude reference="N5U-DY-ONT"/>
+                    <exclude reference="Qwb-rh-2rL"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="marginTopView" destination="dpl-nw-fSN" id="qA0-bO-z4y"/>
+                <outlet property="viewAllBtn" destination="lHc-1c-Hiz" id="cmP-Hj-KKm"/>
+            </connections>
+            <point key="canvasLocation" x="413" y="283.5"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="celldisclosureindicator_nightmode" width="8" height="12"/>
+    </resources>
+</document>

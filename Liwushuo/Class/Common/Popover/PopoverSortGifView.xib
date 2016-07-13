@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopoverSortGifView" customModule="Liwushuo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUg-ez-2Ga">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="对象" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="giftcategorydetail_arrow_up_gray"/>
+                    <connections>
+                        <action selector="subjectBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="23P-RB-fvS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBZ-DL-pbG">
+                    <rect key="frame" x="160" y="0.0" width="80" height="43.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="个性" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="giftcategorydetail_arrow_up_gray"/>
+                    <connections>
+                        <action selector="characterBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ppr-rx-5NP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiC-ic-SNb" userLabel="价格">
+                    <rect key="frame" x="240" y="0.0" width="80" height="43.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="价格" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="giftcategorydetail_arrow_up_gray"/>
+                    <connections>
+                        <action selector="priceBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="yLh-1m-ak8"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPM-qn-hSI" userLabel="底部线条">
+                    <rect key="frame" x="0.0" y="43" width="320" height="0.5"/>
+                    <color key="backgroundColor" red="0.87567471590000001" green="0.87567471590000001" blue="0.87567471590000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="7Hu-kc-8r0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGW-qk-9U8" userLabel="line1">
+                    <rect key="frame" x="80" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" red="0.87567471590000001" green="0.87567471590000001" blue="0.87567471590000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="X65-XS-3cw"/>
+                        <constraint firstAttribute="height" constant="20" id="fGA-as-d6e"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfX-t6-ZP1" userLabel="line2">
+                    <rect key="frame" x="160" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" red="0.87567471590000001" green="0.87567471590000001" blue="0.87567471590000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="MXf-GS-2rz"/>
+                        <constraint firstAttribute="width" constant="1" id="syO-CL-31h"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xs0-7t-TQ7" userLabel="line3">
+                    <rect key="frame" x="240" y="12" width="0.5" height="20"/>
+                    <color key="backgroundColor" red="0.87567471590000001" green="0.87567471590000001" blue="0.87567471590000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="8R9-Re-lxH"/>
+                        <constraint firstAttribute="height" constant="20" id="IN2-Zi-U81"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzi-2y-rOy">
+                    <rect key="frame" x="80" y="0.0" width="80" height="43.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="-24" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-93" maxY="0.0"/>
+                    <state key="normal" title="场合" image="giftcategorydetail_arrow_down_gray">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="giftcategorydetail_arrow_up_gray"/>
+                    <connections>
+                        <action selector="occasionBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="yYD-j3-CKS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fiC-ic-SNb" secondAttribute="bottom" id="1o6-Vq-I0W"/>
+                <constraint firstAttribute="bottom" secondItem="OPM-qn-hSI" secondAttribute="bottom" id="4Mp-ep-s48"/>
+                <constraint firstItem="fiC-ic-SNb" firstAttribute="width" secondItem="uUg-ez-2Ga" secondAttribute="width" id="6m4-H0-rJD"/>
+                <constraint firstItem="Wzi-2y-rOy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="71c-qP-WTs"/>
+                <constraint firstAttribute="trailing" secondItem="fiC-ic-SNb" secondAttribute="trailing" id="All-Zu-ckH"/>
+                <constraint firstItem="fiC-ic-SNb" firstAttribute="height" secondItem="uUg-ez-2Ga" secondAttribute="height" id="BGI-Fd-LFd"/>
+                <constraint firstItem="OBZ-DL-pbG" firstAttribute="width" secondItem="uUg-ez-2Ga" secondAttribute="width" id="C9t-DM-yU2"/>
+                <constraint firstItem="qGW-qk-9U8" firstAttribute="leading" secondItem="uUg-ez-2Ga" secondAttribute="trailing" id="ElF-GV-Ond"/>
+                <constraint firstItem="qGW-qk-9U8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MDU-ON-19A"/>
+                <constraint firstItem="Xs0-7t-TQ7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Q8S-51-83s"/>
+                <constraint firstItem="fiC-ic-SNb" firstAttribute="leading" secondItem="OBZ-DL-pbG" secondAttribute="trailing" id="QeW-jf-wnX"/>
+                <constraint firstItem="Wzi-2y-rOy" firstAttribute="width" secondItem="uUg-ez-2Ga" secondAttribute="width" id="SUi-gX-lf9"/>
+                <constraint firstItem="OPM-qn-hSI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tn0-xN-dta"/>
+                <constraint firstAttribute="bottom" secondItem="Wzi-2y-rOy" secondAttribute="bottom" id="TxW-D2-JTF"/>
+                <constraint firstItem="Xs0-7t-TQ7" firstAttribute="leading" secondItem="OBZ-DL-pbG" secondAttribute="trailing" id="W0p-J0-4ZR"/>
+                <constraint firstAttribute="bottom" secondItem="uUg-ez-2Ga" secondAttribute="bottom" id="Ymi-UP-3YN"/>
+                <constraint firstItem="OBZ-DL-pbG" firstAttribute="leading" secondItem="Wzi-2y-rOy" secondAttribute="trailing" id="aTV-p5-WqF"/>
+                <constraint firstItem="OPM-qn-hSI" firstAttribute="top" secondItem="Wzi-2y-rOy" secondAttribute="bottom" id="esp-vL-eJd"/>
+                <constraint firstItem="SfX-t6-ZP1" firstAttribute="leading" secondItem="Wzi-2y-rOy" secondAttribute="trailing" id="f9b-X8-8me"/>
+                <constraint firstItem="OBZ-DL-pbG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="g81-Hd-yjG"/>
+                <constraint firstItem="Wzi-2y-rOy" firstAttribute="height" secondItem="uUg-ez-2Ga" secondAttribute="height" id="goY-ih-chl"/>
+                <constraint firstItem="fiC-ic-SNb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="j1S-Wc-g7G"/>
+                <constraint firstItem="Wzi-2y-rOy" firstAttribute="leading" secondItem="uUg-ez-2Ga" secondAttribute="trailing" id="lq9-32-yqm"/>
+                <constraint firstItem="uUg-ez-2Ga" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="q1N-Kc-IWe"/>
+                <constraint firstItem="OBZ-DL-pbG" firstAttribute="height" secondItem="uUg-ez-2Ga" secondAttribute="height" id="sHc-sX-RaN"/>
+                <constraint firstItem="SfX-t6-ZP1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tLp-8h-Z1R"/>
+                <constraint firstAttribute="trailing" secondItem="OPM-qn-hSI" secondAttribute="trailing" id="uGA-gj-Ogt"/>
+                <constraint firstAttribute="bottom" secondItem="OBZ-DL-pbG" secondAttribute="bottom" id="vYW-yd-OnU"/>
+                <constraint firstItem="uUg-ez-2Ga" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xOS-xm-65i"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="esp-vL-eJd"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="characterBtn" destination="OBZ-DL-pbG" id="eaS-C6-HdX"/>
+                <outlet property="occasionBtn" destination="Wzi-2y-rOy" id="jCO-Oc-upv"/>
+                <outlet property="priceBtn" destination="fiC-ic-SNb" id="N8x-ga-FKY"/>
+                <outlet property="subjectBtn" destination="uUg-ez-2Ga" id="8Jv-6l-uV4"/>
+            </connections>
+            <point key="canvasLocation" x="169" y="169"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="giftcategorydetail_arrow_down_gray" width="7" height="4"/>
+        <image name="giftcategorydetail_arrow_up_gray" width="7" height="4"/>
+    </resources>
+</document>

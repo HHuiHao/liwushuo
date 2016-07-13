@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="M4k-w7-6x7">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M4k-w7-6x7" id="iXI-nF-PTo">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftcategory_guide" translatesAutoresizingMaskIntoConstraints="NO" id="d2b-FF-R4Z">
+                        <rect key="frame" x="10" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="ZjR-im-CqP"/>
+                            <constraint firstAttribute="height" constant="20" id="blg-li-PSS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用选礼神器快速挑选礼物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGl-Re-T5R">
+                        <rect key="frame" x="35" y="0.0" width="168" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d2b-FF-R4Z" firstAttribute="centerY" secondItem="iXI-nF-PTo" secondAttribute="centerY" id="78V-ZZ-1BM"/>
+                    <constraint firstItem="pGl-Re-T5R" firstAttribute="top" secondItem="iXI-nF-PTo" secondAttribute="top" id="PHV-Dg-llq"/>
+                    <constraint firstAttribute="bottom" secondItem="pGl-Re-T5R" secondAttribute="bottom" id="eWQ-1K-9nU"/>
+                    <constraint firstItem="d2b-FF-R4Z" firstAttribute="leading" secondItem="iXI-nF-PTo" secondAttribute="leading" constant="10" id="pLN-4d-ElY"/>
+                    <constraint firstItem="pGl-Re-T5R" firstAttribute="leading" secondItem="d2b-FF-R4Z" secondAttribute="trailing" constant="5" id="zUG-GV-inV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="443" y="305"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="giftcategory_guide" width="16" height="16"/>
+    </resources>
+</document>
