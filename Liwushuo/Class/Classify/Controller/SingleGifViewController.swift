@@ -77,7 +77,7 @@ class SingleGifViewController: BaseViewController {
     }()
 }
 
-// MARK: - UICollectionView Delegate
+// MARK: - 代理
 extension SingleGifViewController: UICollectionViewDataSource, UICollectionViewDelegate
 {
     
@@ -134,7 +134,6 @@ extension SingleGifViewController: UICollectionViewDataSource, UICollectionViewD
     }
 }
 
-// MARK: - UITableView Delegate
 extension SingleGifViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

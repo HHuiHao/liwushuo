@@ -142,7 +142,7 @@ class SearchViewController: BaseViewController {
     private lazy var popoverSortView = PopoverSortView(frame: CGRect(x: ScreenWidth - 155, y: 0, width: 155, height: 190))
 }
 
-// MARK: - UISearchBarDelegate
+// MARK: - 代理
 extension SearchViewController: UISearchBarDelegate {
     
     func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
@@ -154,7 +154,6 @@ extension SearchViewController: UISearchBarDelegate {
     }
 }
 
-// MARK: - UITableViewDelegate
 extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -50,7 +50,7 @@ class BaseGoodsFeedViewController: BaseViewController {
     }()
 }
 
-// MARK: - UICollectionView Delegate
+// MARK: - 代理
 extension BaseGoodsFeedViewController: UICollectionViewDataSource, UICollectionViewDelegate
 {
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -83,6 +83,7 @@ extension BaseGoodsFeedViewController: UICollectionViewDataSource, UICollectionV
     }
 }
 
+// MARK: - 分类
 class BaseGoodsFlowLayout: UICollectionViewFlowLayout {
     
     override func prepareLayout() {

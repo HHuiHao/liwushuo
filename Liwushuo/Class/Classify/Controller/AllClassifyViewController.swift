@@ -51,7 +51,7 @@ class AllClassifyViewController: BaseViewController {
 
 }
 
-// MARK: - UICollectionView Delegate
+// MARK: - 代理
 extension AllClassifyViewController: UICollectionViewDataSource, UICollectionViewDelegate
 {
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

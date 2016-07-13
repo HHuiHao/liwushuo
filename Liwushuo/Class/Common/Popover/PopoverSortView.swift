@@ -84,7 +84,7 @@ class PopoverSortView: UIView {
     private lazy var bgImageView:UIImageView = UIImageView(image: UIImage(named: "popover_background_right"))
 }
 
-// MARK: - UITableView Delegate
+// MARK: - 代理
 extension PopoverSortView:UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

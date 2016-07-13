@@ -61,7 +61,7 @@ class StrategyViewController: BaseViewController {
     }()
 }
 
-// MARK: - UICollectionView Delegate
+// MARK: - 代理
 extension StrategyViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout
 {
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

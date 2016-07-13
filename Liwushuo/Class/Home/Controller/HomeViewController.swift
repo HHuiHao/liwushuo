@@ -88,6 +88,7 @@ class HomeViewController: BaseViewController {
     }()
 }
 
+// MARK: - 代理
 extension HomeViewController: UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {

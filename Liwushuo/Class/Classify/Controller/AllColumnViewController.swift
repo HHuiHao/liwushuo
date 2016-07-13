@@ -45,6 +45,7 @@ class AllColumnViewController: BaseViewController {
     }()
 }
 
+// MARK: - 代理
 extension AllColumnViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -72,6 +73,8 @@ extension AllColumnViewController: UICollectionViewDelegate, UICollectionViewDat
     
 }
 
+
+// MARK: - 分类
 class AllColumnViewFlowLayout: UICollectionViewFlowLayout {
     override func prepareLayout() {
         super.prepareLayout()

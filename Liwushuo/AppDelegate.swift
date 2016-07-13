@@ -5,11 +5,12 @@
 //  Created by hans on 16/6/28.
 //  Copyright © 2016年 汉斯哈哈哈. All rights reserved.
 //-----------------------------------------------------
-//  我的微博:    http://weibo.com/2613667282/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
-//  微信公众号：hans_iOS (有问题，直接发送到公众号里，我会及时回复)
+//  关注我，及时了解项目进展，也会不断整理出针对该项目各大网友提出的一些优化与设计方案
+//  微博:    http://weibo.com/u/2613667282?is_all=1
+//  微信公众号:  hans_iOS (有问题，直接发送到公众号里，我会及时回复)
 
-//  项目讲解Blog:   http://www.jianshu.com/users/368a8cd349af/latest_articles
-//  项目地址(GitHub): http://weibo.com/2613667282/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
+//  讲解Blog:   http://www.jianshu.com/p/a8e82a714938
+//  GitHub(项目源码): https://github.com/HHuiHao/liwushuo  【给个星星✨，❤谢谢！】
 //------------------------------------------------------
 
 import UIKit
@@ -22,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         // 设置全局nav与tab色值
-        UINavigationBar.appearance().tintColor = UIColor.init(red: 255.0/255.0, green: 2.0/255.0, blue: 51.0/255, alpha: 1.0)
-        UITabBar.appearance().tintColor = UIColor.init(red: 255.0/255.0, green: 2.0/255.0, blue: 51.0/255, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor(red: 255.0/255.0, green: 2.0/255.0, blue: 51.0/255, alpha: 1.0)
+        UITabBar.appearance().tintColor = UIColor(red: 255.0/255.0, green: 2.0/255.0, blue: 51.0/255, alpha: 1.0)
         
         // 创建窗口
         window = UIWindow(frame: UIScreen.mainScreen().bounds)

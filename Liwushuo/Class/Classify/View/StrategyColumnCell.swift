@@ -27,6 +27,7 @@ class StrategyColumnCell: UICollectionViewCell {
     }
 }
 
+// MARK: - 代理
 extension StrategyColumnCell: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

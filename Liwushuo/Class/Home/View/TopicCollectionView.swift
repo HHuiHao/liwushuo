@@ -34,6 +34,7 @@ class TopicCollectionView: UICollectionView {
 
 }
 
+// MARK: - 代理
 extension TopicCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -62,6 +63,7 @@ extension TopicCollectionView: UICollectionViewDelegate, UICollectionViewDataSou
 }
 
 
+// MARK: - 分类
 class TopicCell: UICollectionViewCell {
     
     @IBOutlet weak var photoImageView: UIImageView!

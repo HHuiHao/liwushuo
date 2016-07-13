@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 private let cellReuseIdentifier = "Cell"
-class MeViewController: BaseViewController, UITableViewDelegate, UITableViewDataSource {
+class MeViewController: BaseViewController{
     
     var tableview : UITableView?
     
@@ -124,8 +124,8 @@ class MeViewController: BaseViewController, UITableViewDelegate, UITableViewData
     }
 }
 
-extension MeViewController
-{
+// MARK: - 代理
+extension MeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
     }

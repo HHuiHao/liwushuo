@@ -100,6 +100,7 @@ class ColumnListViewController: BaseViewController {
 
 }
 
+// MARK: - 代理
 extension ColumnListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

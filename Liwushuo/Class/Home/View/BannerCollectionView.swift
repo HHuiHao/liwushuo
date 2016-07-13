@@ -61,6 +61,8 @@ class BannerCollectionView: UICollectionView {
     }()
 }
 
+
+// MARK: - 代理
 extension BannerCollectionView: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
@@ -92,6 +94,7 @@ extension BannerCollectionView: UICollectionViewDelegate, UICollectionViewDataSo
    
 }
 
+// MARK: - 分类
 extension BannerCollectionView: UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
@@ -101,6 +104,7 @@ extension BannerCollectionView: UIScrollViewDelegate {
         pageControl.currentPage = NSInteger(page)
     }
 }
+
 
 class BannerCell: UICollectionViewCell {
     

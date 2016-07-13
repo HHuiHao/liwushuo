@@ -82,7 +82,7 @@ class ClassifyViewController: BaseViewController {
     private lazy var singleGifVC: SingleGifViewController = SingleGifViewController()
 }
 
-// MARK: - Delegate
+// MARK: - 代理
 extension ClassifyViewController: ClassifyTitleViewDelegate, UISearchBarDelegate, UIScrollViewDelegate {
     
     // MARK: - ClassifyTitleViewDelegate

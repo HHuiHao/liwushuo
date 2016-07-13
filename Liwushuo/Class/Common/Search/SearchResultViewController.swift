@@ -104,7 +104,7 @@ class SearchResultViewController: UIViewController {
     private lazy var popoverSortView = PopoverSortView(frame: CGRect(x: ScreenWidth - 155, y: 0, width: 155, height: 190))
 }
 
-// MARK: - UIScrollView Delegate
+// MARK: - 代理
 extension SearchResultViewController:UIScrollViewDelegate {
 
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
