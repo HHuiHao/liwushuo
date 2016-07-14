@@ -34,6 +34,7 @@ class SearchGifViewController: BaseGoodsFeedViewController {
         let height:CGFloat = 44.0
         popoverSortGifView.frame = CGRect(origin: CGPointZero, size: CGSizeMake(view.bounds.width, height))
         collectionView.frame.origin.y = height
+        collectionView.frame.size.height = view.bounds.height - height
     }
     
     // MARK: - 事件

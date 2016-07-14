@@ -93,9 +93,9 @@ class SearchResultViewController: UIViewController {
         return searchBar
     }()
     
-    private lazy var goodsVC:BaseGoodsFeedViewController = BaseGoodsFeedViewController()
+    private lazy var goodsVC:CommonGoodsFeedViewController = CommonGoodsFeedViewController()
     
-    private lazy var strategyVC:BaseStrategyFeedController = BaseStrategyFeedController()
+    private lazy var strategyVC:CommonStrategyViewController = CommonStrategyViewController()
     
     private lazy var leftBtn: UIButton = UIButton(backTarget: self, action: #selector(SearchResultViewController.leftBtnAction))
     
@@ -112,7 +112,6 @@ extension SearchResultViewController:UIScrollViewDelegate {
     }
 }
 
-// MARK: - 
 extension SearchResultViewController:UISearchBarDelegate {
     
 }

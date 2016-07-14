@@ -5,12 +5,13 @@
 - `swift2.0`
 - 适配`i4,i5,i6`机型
 - 兼容`iOS8.0`以上系统
+- 大部分布局方式：autolayout + xib
 - 用到的第三方：`SnapKit`、`MJRefresh`、`SVProgressHUD`
 
 由于空闲时间不多，这个项目分三个阶段完成
-- 完善大部分UI
+- 完善大部分UI(代码比较简洁，因为还未被model,network侵入，新手练习不错哦)
 - 完善剩余UI及网络基础搭建
-- 完善`model`、`viewModel`与网络层设计及`viewModel`与`view`之间的通信
+- 设计`model`、`viewModel`与网络层及`viewModel`与`view`之间的通信
 
 使用：(如果未安装pod: http://code4app.com/article/cocoapods-install-usage)
 - `pod install`  

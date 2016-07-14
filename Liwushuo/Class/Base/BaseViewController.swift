@@ -18,7 +18,7 @@ class BaseViewController: UIViewController {
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        
+
         NSNotificationCenter.defaultCenter().removeObserver(self, name: Notif_Login, object: nil)
     }
     
