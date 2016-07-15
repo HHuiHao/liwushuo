@@ -26,7 +26,7 @@
 
 ![礼物说4.gif](http://upload-images.jianshu.io/upload_images/295346-ea01267a310ff76f.gif?imageMogr2/auto-orient/strip)
 
-- GitHub(项目源码)：https://github.com/HHuiHao/liwushu 【给个星星✨，❤谢谢！】
+- 【觉得写得好的话，上面帮我给个星星✨，谢谢！】
 - 讲解blog：http://www.jianshu.com/p/a8e82a714938
 
 可以关注我，及时了解项目进展，也会不断整理出针对该项目各大网友提出的一些优化与设计方案
