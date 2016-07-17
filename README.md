@@ -10,8 +10,8 @@
 
 由于空闲时间不多，这个项目分三个阶段完成
 - 完善大部分UI(代码比较简洁，因为还未被model,network侵入，新手练习不错哦)
-- 完善剩余UI及网络基础搭建
-- 设计`model`、`viewModel`与网络层及`viewModel`与`view`之间的通信
+- 完善剩余UI
+- 网络层与业务的处理
 
 使用：(如果未安装pod: http://code4app.com/article/cocoapods-install-usage)
 - `pod install`  
