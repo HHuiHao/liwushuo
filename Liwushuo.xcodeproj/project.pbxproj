@@ -113,7 +113,6 @@
 		3AF0229C1D35DE2C007ABD57 /* goods_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF022921D35DE2C007ABD57 /* goods_9.jpg */; };
 		3AF0229F1D362000007ABD57 /* CommonFetureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0229D1D362000007ABD57 /* CommonFetureViewController.swift */; };
 		3AF022A01D362000007ABD57 /* CommonFetureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF0229E1D362000007ABD57 /* CommonFetureViewController.xib */; };
-		3AF022A21D362079007ABD57 /* 二维码.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AF022A11D362079007ABD57 /* 二维码.jpg */; };
 		8C4463F7C46D241866B104DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C3E8FB951E920EAEDA0B40 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -227,7 +226,6 @@
 		3AF022921D35DE2C007ABD57 /* goods_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_9.jpg; sourceTree = "<group>"; };
 		3AF0229D1D362000007ABD57 /* CommonFetureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFetureViewController.swift; sourceTree = "<group>"; };
 		3AF0229E1D362000007ABD57 /* CommonFetureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonFetureViewController.xib; sourceTree = "<group>"; };
-		3AF022A11D362079007ABD57 /* 二维码.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二维码.jpg"; sourceTree = "<group>"; };
 		42C3E8FB951E920EAEDA0B40 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1F7DC64369EDBA1878B5FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1225711B9B1D7275591A8E1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -374,8 +372,6 @@
 			children = (
 				3ACF1CD21D22C45800DB254E /* Controller */,
 				3ACF1CD41D22C45800DB254E /* View */,
-				3ACF1CD31D22C45800DB254E /* Model */,
-				3ACF1CD51D22C45800DB254E /* ViewModel */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -391,13 +387,6 @@
 				3A9F676E1D34D1C700BE25E1 /* ColumnListViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		3ACF1CD31D22C45800DB254E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		3ACF1CD41D22C45800DB254E /* View */ = {
@@ -425,20 +414,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ACF1CD51D22C45800DB254E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		3ACF1CDA1D22C45800DB254E /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				3ACF1CDB1D22C45800DB254E /* Controller */,
-				3ACF1CDC1D22C45800DB254E /* Model */,
 				3ACF1CDD1D22C45800DB254E /* View */,
-				3ACF1CDE1D22C45800DB254E /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -452,13 +432,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		3ACF1CDC1D22C45800DB254E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		3ACF1CDD1D22C45800DB254E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,20 +443,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ACF1CDE1D22C45800DB254E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		3ACF1CDF1D22C45800DB254E /* Hot */ = {
 			isa = PBXGroup;
 			children = (
 				3ACF1CE01D22C45800DB254E /* Controller */,
-				3ACF1CE11D22C45800DB254E /* Model */,
 				3ACF1CE21D22C45800DB254E /* View */,
-				3ACF1CE31D22C45800DB254E /* ViewModel */,
 			);
 			path = Hot;
 			sourceTree = "<group>";
@@ -496,13 +460,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		3ACF1CE11D22C45800DB254E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		3ACF1CE21D22C45800DB254E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,20 +467,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3ACF1CE31D22C45800DB254E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		3ACF1CE41D22C45800DB254E /* Me */ = {
 			isa = PBXGroup;
 			children = (
 				3ACF1CE51D22C45800DB254E /* Controller */,
-				3ACF1CE61D22C45800DB254E /* Model */,
 				3ACF1CE71D22C45800DB254E /* View */,
-				3ACF1CE81D22C45800DB254E /* ViewModel */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -536,13 +484,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		3ACF1CE61D22C45800DB254E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		3ACF1CE71D22C45800DB254E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -553,13 +494,6 @@
 				3ACF1CFF1D24C56D00DB254E /* MeSectionView.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		3ACF1CE81D22C45800DB254E /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		3ACF1CE91D22C45800DB254E /* Root */ = {
@@ -592,8 +526,6 @@
 			isa = PBXGroup;
 			children = (
 				3ACF1D0C1D25180900DB254E /* Extension */,
-				3ACF1D0E1D25180900DB254E /* Network */,
-				3ACF1D0F1D25180900DB254E /* Tool */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -609,20 +541,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		3ACF1D0E1D25180900DB254E /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		3ACF1D0F1D25180900DB254E /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
 		3ACF1D111D25183200DB254E /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,7 +553,6 @@
 		3AF022641D35D0CE007ABD57 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3AF022A11D362079007ABD57 /* 二维码.jpg */,
 				3AF022881D35DE2C007ABD57 /* goods */,
 				3AF022651D35D0CE007ABD57 /* strategy */,
 			);
@@ -765,7 +682,6 @@
 				3A9512ED1D2CA55600ED3379 /* PopoverSortGifView.xib in Resources */,
 				3A9F67731D34D22F00BE25E1 /* ColumnListCell.xib in Resources */,
 				3ACF1CC71D22ACE200DB254E /* LaunchScreen.storyboard in Resources */,
-				3AF022A21D362079007ABD57 /* 二维码.jpg in Resources */,
 				3AF022981D35DE2C007ABD57 /* goods_5.jpg in Resources */,
 				3AF022741D35D0CE007ABD57 /* strategy_4.jpg in Resources */,
 				3AF022931D35DE2C007ABD57 /* goods_1.jpg in Resources */,
@@ -1039,7 +955,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hans.Liwushuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Liwushuo/OCBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Liwushuo/OCBridgingHeader.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
@@ -1055,7 +972,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hans.Liwushuo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Liwushuo/OCBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Liwushuo/OCBridgingHeader.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};

@@ -94,7 +94,7 @@ extension BannerCollectionView: UICollectionViewDelegate, UICollectionViewDataSo
    
 }
 
-// MARK: - 分类
+// MARK: - 其他类
 extension BannerCollectionView: UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {

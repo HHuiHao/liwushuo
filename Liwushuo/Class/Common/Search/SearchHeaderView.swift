@@ -13,11 +13,6 @@ class SearchHeaderView: UIView {
     let btnTitles = ["零食", "手机壳", "双肩包", "钱包", "凉鞋", "手表", "情侣", "泳衣", "杯子", "连衣裙", "手链", "宿舍"]
     var layoutUIFinishBlock: ((height: CGFloat)->())?
     
-    /**
-     初始化方法
-     
-     - parameter layoutUIFinish: 把view的高度回调给外界
-     */
     init(layoutUIFinish: (height: CGFloat) -> ()) {
         super.init(frame: CGRectZero)
         layoutUIFinishBlock = layoutUIFinish

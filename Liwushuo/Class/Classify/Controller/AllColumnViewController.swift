@@ -74,7 +74,7 @@ extension AllColumnViewController: UICollectionViewDelegate, UICollectionViewDat
 }
 
 
-// MARK: - 分类
+// MARK: - 其他类
 class AllColumnViewFlowLayout: UICollectionViewFlowLayout {
     override func prepareLayout() {
         super.prepareLayout()

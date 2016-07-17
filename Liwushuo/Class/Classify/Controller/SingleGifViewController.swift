@@ -160,7 +160,7 @@ extension SingleGifViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
-// MARK: - 分类
+// MARK: - 其他类
 class SingleGifCollectionFlowLayout: UICollectionViewFlowLayout {
     override func prepareLayout() {
         super.prepareLayout()

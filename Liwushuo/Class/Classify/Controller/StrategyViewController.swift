@@ -118,7 +118,7 @@ extension StrategyViewController: UICollectionViewDataSource, UICollectionViewDe
     }
 }
 
-// MARK: - 分类
+// MARK: - 其他类
 class StrategyCollectionFlowLayout: UICollectionViewFlowLayout {
     override func prepareLayout() {
         super.prepareLayout()

@@ -83,7 +83,7 @@ extension BaseGoodsFeedViewController: UICollectionViewDataSource, UICollectionV
     }
 }
 
-// MARK: - 分类
+// MARK: - 其他类
 class BaseGoodsFlowLayout: UICollectionViewFlowLayout {
     
     override func prepareLayout() {

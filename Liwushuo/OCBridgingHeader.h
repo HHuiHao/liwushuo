@@ -7,4 +7,4 @@
 //
 
 #import <MJRefresh/MJRefresh.h>
-#import <SVProgressHUD/SVProgressHUD.h>
+#import "SVProgressHUD.h"

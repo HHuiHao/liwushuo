@@ -15,57 +15,28 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="二维码.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zzB-dC-sEh">
-                    <rect key="frame" x="225" y="225" width="150" height="150"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="150" id="Ih3-rZ-53K"/>
-                        <constraint firstAttribute="height" constant="150" id="bSi-Fd-XZ2"/>
-                    </constraints>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neH-au-EXc">
-                    <rect key="frame" x="30" y="172" width="540" height="53"/>
-                    <string key="text">代码还未完，后续更新会首发到微信公众号：hans_iOS
-或者关注我的微博：汉斯哈哈哈</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                    <color key="textColor" red="0.98431372549999996" green="0.054901960780000002" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有问题可以直接在公众号里提问" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ph-CI-oHB">
-                    <rect key="frame" x="30" y="375" width="540" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.5" green="0.4851922286" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Vu-Oi-4cO">
-                    <rect key="frame" x="161" y="406" width="279" height="142.5"/>
+                    <rect key="frame" x="147.5" y="240.5" width="306.5" height="119.5"/>
                     <string key="text">后续完善： 1.剩下所有能做的UI布局(未登录下)
-2.对接网络数据(网络层设计)
-3.网络层与model/view model
-view model与view 的之间的数据传递  </string>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+2.对接网络数据
+3.网络层与业务的处理 </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="neH-au-EXc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="8fM-cR-Nw7"/>
                 <constraint firstItem="5Vu-Oi-4cO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Bbi-gl-GAi"/>
-                <constraint firstItem="zzB-dC-sEh" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Orp-WI-gWb"/>
-                <constraint firstItem="neH-au-EXc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ST7-Wl-c4k"/>
-                <constraint firstItem="zzB-dC-sEh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zqy-pa-JCw"/>
-                <constraint firstItem="neH-au-EXc" firstAttribute="bottom" secondItem="zzB-dC-sEh" secondAttribute="top" id="eSL-Ty-DyZ"/>
-                <constraint firstItem="5Vu-Oi-4cO" firstAttribute="top" secondItem="6Ph-CI-oHB" secondAttribute="bottom" constant="10" id="kRD-3B-jnX"/>
-                <constraint firstItem="6Ph-CI-oHB" firstAttribute="top" secondItem="zzB-dC-sEh" secondAttribute="bottom" id="kyJ-55-cNI"/>
-                <constraint firstItem="6Ph-CI-oHB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="len-SR-Ha9"/>
-                <constraint firstItem="6Ph-CI-oHB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="vMk-eM-Elp"/>
-                <constraint firstAttribute="trailing" secondItem="neH-au-EXc" secondAttribute="trailing" constant="30" id="yTZ-1e-ipc"/>
-                <constraint firstAttribute="trailing" secondItem="6Ph-CI-oHB" secondAttribute="trailing" constant="30" id="z7f-sF-GXt"/>
+                <constraint firstItem="5Vu-Oi-4cO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Zz0-3M-RFt"/>
+                <constraint firstItem="5Vu-Oi-4cO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xZQ-No-8oW"/>
             </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="xZQ-No-8oW"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="311" y="339"/>
         </view>
     </objects>
-    <resources>
-        <image name="二维码.jpg" width="344" height="344"/>
-    </resources>
 </document>

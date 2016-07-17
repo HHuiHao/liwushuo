@@ -78,7 +78,7 @@ extension AllClassifyViewController: UICollectionViewDataSource, UICollectionVie
     }
 }
 
-// MARK: - 分类
+// MARK: - 其他类
 class AllClassifyCollectionFlowLayout: UICollectionViewFlowLayout {
     override func prepareLayout() {
         super.prepareLayout()
