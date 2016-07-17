@@ -16,10 +16,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Vu-Oi-4cO">
-                    <rect key="frame" x="147.5" y="240.5" width="306.5" height="119.5"/>
-                    <string key="text">后续完善： 1.剩下所有能做的UI布局(未登录下)
-2.对接网络数据
-3.网络层与业务的处理 </string>
+                    <rect key="frame" x="161" y="252" width="278" height="96"/>
+                    <string key="text">后续完善：
+1.完善剩余UI
+2.网络层设计与数据业务的处理 </string>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
